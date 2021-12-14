@@ -39,8 +39,7 @@ and open the template in the editor.
         $apell = filter_input(INPUT_POST,'txtapellidos');
         $tel = filter_input(INPUT_POST,'txttelefono');
         $email = filter_input(INPUT_POST,'txtemail');
-        $mail = @mail($email, $nomb, $apell,$tel)
-        ?>
-        
+     $email = @mail("canorojasdeyvi@gmail.com",$nomb,$apell,$tel);
+      ?>
     </body>
 </html>
